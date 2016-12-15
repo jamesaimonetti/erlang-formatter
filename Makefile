@@ -1,7 +1,7 @@
 .PHONY: all test
 
-erlang = 'https://raw.githubusercontent.com/erlang/otp/maint/lib/tools/emacs/erlang.el'
-erlangstart = 'https://raw.githubusercontent.com/erlang/otp/maint/lib/tools/emacs/erlang-start.el'
+erlang = 'https://raw.githubusercontent.com/erlang/otp/bb219e6b9614a9d016531ab89707f859f3577165/lib/tools/emacs/erlang.el'
+erlangstart = 'https://raw.githubusercontent.com/bbatsov/otp/bb219e6b9614a9d016531ab89707f859f3577165/lib/tools/emacs/erlang-start.el'
 
 all:
 	curl -o emacs/erlang.el $(erlang)
